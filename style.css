@@ -1,0 +1,49 @@
+.parent {
+    position: relative;
+    display: inline-block;
+}
+
+.parent img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.child {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: mediumslateblue;
+    color: #0000ff;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#popularfoodsheading {
+    background-color: greenyellow;
+}
+
+#headingpopularfoods {
+    background-color: yellow;
+}
+
+#ul {
+    background-color: green;
+}
+
+#popularfoods {
+    display: grid;
+
+}
